@@ -70,3 +70,17 @@ pakistan-energy-pipeline/
 ├── run.py            ← pipeline runner
 └── README.md
 ```
+
+## Environment Setup
+
+This project requires an Ember API key for data extraction.
+
+1. Get a free API key from [ember-energy.org](https://ember-energy.org)
+2. Create a `.env` file in the root folder:
+```
+EMBER_API_KEY=your_actual_key_here
+```
+
+3. The `.env` file is gitignored and will never be pushed to GitHub — each user must create their own.
+
+> **Note:** If you only want to run the dashboard without re-running the pipeline, skip this step — the database file is already included in the repo.
