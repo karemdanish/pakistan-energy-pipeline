@@ -6,3 +6,4 @@ data/raw/
 *.db
 data/raw/*.csv
 !data/raw/irena_capacity.xlsx
+.streamlit/secrets.toml
