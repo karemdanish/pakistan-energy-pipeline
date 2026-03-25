@@ -4,3 +4,5 @@ __pycache__/
 .env
 data/raw/
 *.db
+data/raw/*.csv
+!data/raw/irena_capacity.xlsx
